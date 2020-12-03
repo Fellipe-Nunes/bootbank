@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://fellipe:Seamaster@cluster0.kvwio.gcp.mongodb.net/ekki?retryWrites=true&w=majority",
+    "jwtSecret": "uUJFB*^T2eG64!)%.O+?XzkW9T.!q(p~0@WvAdPvY}@hdI_TiG;&!.7e[wM7m2"
+}
