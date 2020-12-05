@@ -14,5 +14,3 @@ export default async params => {
 		return false;
 	}
 }
-
-

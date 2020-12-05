@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import '../src/assets/css/App.css'
-import Menu from './components/Menu/Menu'
-import Users from './components/User/Form'
+import '../src/assets/css/app.css'
+import Menu from './components/menu/menu'
+import Users from './components/user/user.form'
 import { Jumbotron } from 'reactstrap'
 
 class Cadastros extends Component {

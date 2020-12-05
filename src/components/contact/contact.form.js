@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap'
 import { get } from 'lodash'
 import swal from 'sweetalert'
-import submitData from '../Submit/Data'
+import submitData from '../submit/data.submit'
 import { read_cookie } from 'sfcookies'
 
 class ContactsForm extends Component {

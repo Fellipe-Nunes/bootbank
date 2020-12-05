@@ -1,8 +1,8 @@
 import React from 'react'
-import '../../assets/css/SideDrawer.css'
+import '../../assets/css/side.drawer.css'
 import { Link } from 'react-router-dom'
 
-const sideDrawer = props => {
+const SideDrawer = props => {
   let drawerClasses = 'side-drawer'
   if (props.show) {
     drawerClasses = 'side-drawer open'
@@ -18,4 +18,4 @@ const sideDrawer = props => {
 
 }
 
-export default sideDrawer
+export default SideDrawer

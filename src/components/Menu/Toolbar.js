@@ -1,9 +1,9 @@
 import React from 'react'
-import DrawerToggleButton from './DrawerToggleButton'
-import '../../assets/css/Toolbar.css'
+import DrawerToggleButton from './drawer.button'
+import '../../assets/css/toolbar.css'
 import { Link } from 'react-router-dom'
 
-const toolbar = props => (
+const Toolbar = props => (
   <header className="toolbar">
     <nav className="toolbar_navigation">
       <div className="toolbar__toggle-button">
@@ -22,4 +22,4 @@ const toolbar = props => (
   </header>
 )
 
-export default toolbar
+export default Toolbar

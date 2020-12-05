@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap'
 import { get } from 'lodash'
 import swal from 'sweetalert'
-import submitData from '../Submit/Data'
+import submitData from '../submit/data.submit'
 
 class UsersForm extends Component {
 

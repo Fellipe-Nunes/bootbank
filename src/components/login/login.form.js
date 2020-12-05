@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap'
 import { get } from 'lodash'
 import swal from 'sweetalert'
-import submitLogin from '../Submit/Login'
+import submitLogin from '../submit/login.submit'
 import { bake_cookie } from 'sfcookies'
 
 class LoginForm extends Component {

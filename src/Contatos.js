@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import '../src/assets/css/App.css'
-import Menu from './components/Menu/Menu'
-import ContactsForm from './components/Contacts/Form'
-import ContactsList from './components/Contacts/List'
+import '../src/assets/css/app.css'
+import Menu from './components/menu/menu'
+import ContactsForm from './components/contact/contact.form'
+import ContactsList from './components/contact/contact.list'
 import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col, Jumbotron } from 'reactstrap'
 import classnames from 'classnames'
 

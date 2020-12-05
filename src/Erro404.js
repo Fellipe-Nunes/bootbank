@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import '../src/assets/css/App.css'
-import Menu from './components/Menu/Menu'
+import '../src/assets/css/app.css'
+import Menu from './components/menu/menu'
 
 class Erro404 extends Component {
   render() {

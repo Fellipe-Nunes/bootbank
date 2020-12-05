@@ -1,4 +1,4 @@
-const Note = require('../models/note.js')
+const Note = require('../models/note.models')
 
 // Create and Save a new Note
 exports.create = (req, res) => {

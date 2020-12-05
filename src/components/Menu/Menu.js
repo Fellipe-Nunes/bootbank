@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Toolbar from './Toolbar'
-import SideDrawer from './SideDrawer'
-import Backdrop from './Backdrop'
+import Toolbar from './toolbar'
+import SideDrawer from './side.drawer'
+import Backdrop from './backdrop'
 import { read_cookie } from 'sfcookies'
 
 

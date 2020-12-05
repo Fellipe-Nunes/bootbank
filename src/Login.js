@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import './App.css'
-import LoginForm from './components/Login/Form'
+import '../src/assets/css/app.css'
+import LoginForm from './components/login/login.form'
 import { Link } from 'react-router-dom'
 import { Jumbotron } from 'reactstrap'
 

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import '../src/assets/css/App.css'
-import Menu from './components/Menu/Menu'
-import TransfersForm from './components/Transfers/Form'
-import TransfersList from './components/Transfers/List'
+import '../src/assets/css/app.css'
+import Menu from './components/menu/menu'
+import TransfersForm from './components/transfer/transfer.form'
+import TransfersList from './components/transfer/list.form'
 import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col, Jumbotron } from 'reactstrap'
 import classnames from 'classnames'
 

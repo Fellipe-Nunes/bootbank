@@ -1,4 +1,4 @@
-const Transfer = require('../models/transfer.js')
+const Transfer = require('../models/transfer.models')
 
 // Create and Save a new transfer
 exports.create = (req, res) => {

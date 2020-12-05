@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './App.css'
+import '../src/assets/css/app.css'
 import { delete_cookie, bake_cookie } from 'sfcookies'
 
 class Logoff extends Component {

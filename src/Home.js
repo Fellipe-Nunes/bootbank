@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import '../src/assets/css/App.css'
-import Menu from './components/Menu/Menu'
-import { Jumbotron } from 'reactstrap'
+import '../src/assets/css/app.css'
+import Menu from './components/menu/menu'
+import { Jumbotron, ListGroup, ListGroupItem } from 'reactstrap'
 import { read_cookie } from 'sfcookies'
 
 class Home extends Component {

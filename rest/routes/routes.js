@@ -1,6 +1,6 @@
 module.exports = (app) => {
 
-    const notes = require('../api/note.js')
+    const notes = require('../api/note.api')
 
     //Create new note
     app.post('/rest/api/note', notes.create)
@@ -18,7 +18,7 @@ module.exports = (app) => {
     app.delete('/rest/api/note/:noteId', notes.delete)
 
 
-    const contacts = require('../api/contact.js')
+    const contacts = require('../api/contact.api')
 
     // Create a new Contact
     app.post('/rest/api/contact', contacts.create)
@@ -36,7 +36,7 @@ module.exports = (app) => {
     app.delete('/rest/api/contact/:contactId', contacts.delete)
 
 
-    const transfers = require('../api/transfer.js')
+    const transfers = require('../api/transfer.api')
 
     // Create a new Transfer
     app.post('/rest/api/transfer', transfers.create)
@@ -58,7 +58,7 @@ module.exports = (app) => {
     app.get('/rest/api/checkTransfer/:contactId&:valueTransfer', transfers.findOneCheck)
 
 
-    const users = require('../api/user.js')
+    const users = require('../api/user.api')
 
     // Create a new user
     app.post('/rest/api/user', users.create)
